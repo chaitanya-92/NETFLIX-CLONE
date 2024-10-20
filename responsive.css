@@ -1,0 +1,90 @@
+@media (max-width:600px) {
+    /* Navbar */
+    .navbar
+    {
+        width: 80%;
+        padding: 0 80px;
+    }
+    .logo img{
+        height: 40px;
+        width: 100px;
+        margin-left: -40px;
+    }
+    .chooselang
+    {
+        height: 25px;
+        width: 80px;
+    }
+
+    .signin a
+    {
+        font-size: 12px;
+        padding: 6px 13px;
+    }
+    /* Navbar End */
+
+
+}
+
+@media (max-width:800px) {
+    .f1p2input input[type=email]
+    {
+        padding-left: 20px;
+        padding-right: 140px;
+    }
+    #f1m1-t1
+    {
+        font-size: 2rem;
+    }
+    #f1m1-t2
+    {
+        padding-left: 20px;
+        font-size: 1.5rem;
+    }
+    #f1m1-t3
+    {
+        font-size: 1.25rem;
+    }
+
+    .f1p2button a
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1088px) {
+    .repeath1
+    {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vw;
+    font-weight: 900;
+    letter-spacing: 2px; 
+    }
+
+    .repeath2
+    {
+    font-size: 3vw;
+    font-weight: 400;
+    }
+    .pagesmain
+    {
+        height: 100vh;
+
+    }
+    .pagesimg
+    {
+        width: 200px;
+        
+    }
+    .pagesflex
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    height: 333px;
+    }
+}
